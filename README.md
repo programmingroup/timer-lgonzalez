@@ -9,6 +9,7 @@ Page web return current server time
 ![Flask Icon](https://img.icons8.com/ffffff/flask.png)
 
 ## Deployment Docker image 🐳
+Visit the repository on Docker Hub [here](https://hub.docker.com/repository/docker/programmingroup/timer/tags)
 
 ```bash
   > docker pull programmingroup/timer:latest
@@ -16,6 +17,8 @@ Page web return current server time
   > docker run -d -p 5000:5000 programmingroup/timer:latest
 ```
 
+## Live Demo
+Experience the project in action by visiting the live demo [here](https://timer-lgonzalez-production.up.railway.app/)!
 
 ## Authors
 
