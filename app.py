@@ -6,7 +6,7 @@ app = Flask(__name__)
 def get_server_time():
     date = datetime.now().strftime("%Y-%m-%d")
     time = datetime.now().strftime("%H:%M:%S")
-    return (f"<div style='text-align: center; margin-top: 40%; font-size: 20px; font-family: \"Helvetica\";'>"
+    return (f"<div style='text-align: center; font-size: 20px; font-family: \"Helvetica\";'>"
             f"<h1>Current Time</h1>"
             f"<p><strong>Date: </strong>{date}</p>"
             f"<p><strong>Time: </strong>{time}</p></div>")
