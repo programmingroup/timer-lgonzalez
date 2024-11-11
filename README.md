@@ -10,12 +10,14 @@ Page web return current server time
 
 ## Deployment Docker image 🐳
 Visit the repository on Docker Hub [here](https://hub.docker.com/repository/docker/programmingroup/timer/tags)
-
+#### 1. Check if port 5000 is free
+#### 2. Run these two commands in your terminal 
 ```bash
   > docker pull programmingroup/timer:latest
   
   > docker run -d -p 5000:5000 programmingroup/timer:latest
 ```
+#### 3. Connecting to http://localhost:5000 using your browser
 
 ## Live Demo
 Experience the project in action by visiting the live demo [here](https://timer-lgonzalez-production.up.railway.app/)!
